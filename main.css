@@ -1,10 +1,9 @@
 /* Add a background color to the top navigation */
 .topnav {
   background-color: #fcba03;
-  overflow: hidden;
 }
 
-.topnav a {
+.topnav a, .topnav div {
   float: right;
   display: block;
   color: #f2f2f2;
