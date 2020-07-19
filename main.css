@@ -5,7 +5,7 @@
   width: 100%;
 }
 
-.topnav a {
+.topnav a, .topnav div {
   float: right;
   display: block;
   color: #f2f2f2;
