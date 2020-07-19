@@ -16,18 +16,18 @@
     <!-- Main navigation menu (responsive) -->
     <nav class="nav-main">
       <a href="#" class="logo"><img src="https://drive.google.com/uc?id=1bQ4GFgMk4HvhMzNI7UBVK5HGkom-dRhB" alt="website logo" width="50" height="50"></img></a>
-      <a href="#" class="active">início</a>
-      <a href="/biblioteca">biblioteca de arquivos</a>
-      <a href="sobre">conheça o projeto</a>
-      <a href="/projetos" class="nav-item-proj">projetos desenvolvidos</a><i class="fa fa-angle-down"></i>
+       <a href="sobre">conheça o projeto</a>
+      <a href="projetos" class="nav-item-proj">projetos desenvolvidos</a><i class="fa fa-angle-down"></i>
         <nav class="nav-drop-proj">
-          <a href="/projetos/equipamento" class="active">equipamento</a>
-          <a href="/projetos/mobilidade">mobilidade</a>
-          <a href="/projetos/infraestrutura-urbana">infraestrutura urbana</a>
-          <a href="/projetos/habitacao">habitação</a>
-          <a href="/projetos/areas-verdes">áreas verdes</a>
+          <a href="projetos/equipamento" class="active">equipamento</a>
+          <a href="projetos/mobilidade">mobilidade</a>
+          <a href="projetos/infraestrutura-urbana">infraestrutura urbana</a>
+          <a href="projetos/habitacao">habitação</a>
+          <a href="projetos/areas-verdes">áreas verdes</a>
         </nav>
-      <a href="javascript:void(0);" class="burguer" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+      <a href="contrucao">biblioteca de arquivos</a>
+      <a href="#" class="active">início</a>
+      <a href="javascript:void(0);" class="burguer" onclick="burguerMenu()"><i class="fa fa-bars"></i></a>
     </nav>
   
   <!-- Hero content -->
@@ -36,5 +36,15 @@
   
   <!-- Interactive map -->
   
+  <script>
+        function burguerMenu() {
+      var x = document.querySelector(".nav-main");
+      if (x.className === "nav-main") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav-main";
+      }
+    }
+  </script>
   </body>
   </html>
