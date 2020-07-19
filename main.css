@@ -3,7 +3,7 @@
   background-color: #fcba03;
 }
 
-.topnav a, .topnav div {
+.topnav a {
   float: right;
   display: block;
   color: #f2f2f2;
